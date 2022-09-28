@@ -12,11 +12,15 @@
     transition: all 0.5s;
 }
 
-.nav_avatar {
+.nav_Login {
     position: fixed;
     right: 40px;
-    width: 30px;
     object-fit: contain;
+    color: white;
+    text-decoration: none;
+    padding: 7px 17px;
+    background-color: red;
+    border-radius: 5px;
 }
 
 .nav_black {
@@ -26,7 +30,7 @@
 .nav_logo {
     position: fixed;
     left: 40px;
-    width: 80px;
+    width: 100px;
     object-fit: contain;
 }
 

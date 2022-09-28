@@ -1,0 +1,55 @@
+.LoginPage {
+    background-color: black;
+    background-image: url(./Back_img.jpg);
+    height: 100vh;
+}
+
+.LoginMenu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.Info {
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    padding: 30px 70px 200px;
+    background-color: black;
+    width: 500px;
+    
+}
+
+.ID_Input {
+    text-align: center;
+    background-color: #f3f3f3;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.PW_Input {
+    text-align: center;
+    background-color: #f3f3f3;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.register_move {
+    padding-top: 50px;
+    font-size: 15px;
+}
+
+.login_button {
+    font-size: 20px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor:pointer;
+}

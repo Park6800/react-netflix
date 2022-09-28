@@ -17,7 +17,7 @@ export default function Footer() {
                 </FooterLinkContent>
                 <FooterDescContainer>
                     <FooterDescRights>
-                        Nexflix Rights Reserved.
+                         Nexflix Rights Reserved.
                     </FooterDescRights>
                 </FooterDescContainer>
             </FooterLinkContainer>
@@ -88,7 +88,7 @@ const FooterContainer = styled.div`
     }`;
 
     const FooterDescRights = styled.h2`
-    color : white;
-    font-size : 14px
+    color : white ;
+    font-size : 24px ;
     text-align : center;
     `;
